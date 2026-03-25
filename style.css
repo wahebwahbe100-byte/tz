@@ -1,0 +1,18 @@
+
+body{margin:0;font-family:Arial}
+.container{width:90%;margin:auto}
+.navbar{background:#17385f;color:#fff;padding:20px}
+.hero{height:300px;background:#eef5fc;display:flex;align-items:center;justify-content:center;text-align:center}
+
+.end-banner{position:relative;height:350px;background:url('images/sauber.png') center/cover no-repeat;margin-top:60px}
+.wave-top{position:absolute;top:-1px;width:100%}
+.wave-top svg{width:100%;height:100px}
+.wave-top path{fill:#fff}
+
+.end-banner::before{content:"";position:absolute;inset:0;background:rgba(23,56,95,0.7)}
+
+.end-content{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center}
+
+.btn{background:#2f5f98;color:#fff;padding:10px 20px;border-radius:20px;text-decoration:none}
+
+.footer{background:#17385f;color:#fff;text-align:center;padding:20px}
